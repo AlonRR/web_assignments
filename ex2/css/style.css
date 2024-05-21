@@ -29,7 +29,7 @@ nav {
     line-height: normal;
 }
 
-nav>span {
+nav > span {
     display: inherit;
     justify-content: start;
     align-items: center;
@@ -45,13 +45,27 @@ nav ul {
     flex: auto;
     justify-content: space-around;
     align-items: center;
+}
+
+nav li {
     color: #612999;
     font-size: 30px;
+}
+
+nav li:not(#selected_nav) {
     font-weight: 400;
 }
 
-nav ul :hover {
+nav li:hover:not(#selected_nav) {
     font-weight: 700;
+}
+
+#selected_nav {
+    font-weight: 700;
+}
+
+#selected_nav:hover {
+    font-weight: 900;
 }
 
 #flashy_top_area {
@@ -119,7 +133,7 @@ footer {
     row-gap: 10px;
 }
 
-#footer_info>div {
+#footer_info > div {
     display: flex;
     flex-direction: column;
     gap: 16px;
