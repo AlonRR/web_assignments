@@ -52,20 +52,20 @@ nav li {
     font-size: 30px;
 }
 
-nav li:not(#selected_nav) {
+nav li {
     font-weight: 400;
 }
 
 nav li:hover:not(#selected_nav) {
-    font-weight: 700;
+    color: #745396;
 }
 
-#selected_nav {
-    font-weight: 700;
-}
+/* #selected_nav {
+    font-weight: 400;
+} */
 
 #selected_nav:hover {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 #flashy_top_area {
