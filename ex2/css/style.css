@@ -27,6 +27,7 @@ nav {
     font-family: Nunito;
     font-style: normal;
     line-height: normal;
+    padding-left: 32px;
 }
 
 nav > span {
@@ -38,6 +39,7 @@ nav > span {
     font-weight: 700;
     letter-spacing: 6px;
     text-transform: uppercase;
+    gap:10px;
 }
 
 nav ul {
