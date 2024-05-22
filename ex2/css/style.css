@@ -56,15 +56,15 @@ nav li {
     font-weight: 400;
 }
 
-nav li:hover:not(#selected_nav) {
-    color: #745396;
+nav li:not(#selected_nav) :hover {
+    color: #8c77a1;
 }
 
 /* #selected_nav {
     font-weight: 400;
 } */
 
-#selected_nav:hover {
+#selected_nav :hover {
     font-weight: 700;
 }
 
