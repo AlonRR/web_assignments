@@ -88,6 +88,124 @@ h1 {
     line-height: normal;
 }
 
+#store_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 32px;
+}
+
+#store_items > h2 {
+    width: 100%;
+}
+
+.store_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 376px;
+    height: 496px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #EFECFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store_item > div:first-child {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 376px;
+    height: 276px;
+    flex-shrink: 0;
+    background: url("../images/Vinland_Saga.jpeg") lightgray 50% / cover no-repeat;
+    border-radius: 38px;
+}
+
+.heart_icon {
+    display: flex;
+    width: 47px;
+    height: 47px;
+    justify-content: space-around;
+    align-items: center;
+    background: #EFECFF;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-right: 42px;
+}
+
+.heart_icon > img {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    fill: #F51264;
+}
+
+.store_item > h3 {
+    color: #000;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+    padding-left: 32px;
+}
+
+.store_item > p {
+    color: #333;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.buy_item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #612999;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 27px;
+}
+
+.shopping_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 63px;
+    background-color: #612999;
+    border-radius: 50%;
+}
+
+.shopping_cart > img {
+    display: block;
+    position: relative;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    fill: #FFFFFF;
+}
+
 footer {
     display: flex;
     flex-direction: column;
