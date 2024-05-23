@@ -57,15 +57,15 @@ nav li {
     font-size: 30px;
 }
 
-nav li {
+nav li:not(#selected_nav) {
     font-weight: 400;
 }
 
-nav li:not(#selected_nav) :hover {
+nav li :hover {
     color: #8c77a1;
 }
 
-#selected_nav :hover {
+#selected_nav {
     font-weight: 700;
 }
 
