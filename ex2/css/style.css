@@ -11,13 +11,22 @@ ul {
     list-style: none;
 }
 
+h2 {
+    color: #612999;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 body {
-    /* font-family: 'Trebuchet MS'; */
     background-color: #FFFFFF;
 }
 
 nav {
-    /* position: st ; */
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     width: auto;
@@ -28,6 +37,8 @@ nav {
     font-style: normal;
     line-height: normal;
     padding-left: 32px;
+    background: #FFF;
+    z-index: 1000;
 }
 
 nav > span {
@@ -39,7 +50,7 @@ nav > span {
     font-weight: 700;
     letter-spacing: 6px;
     text-transform: uppercase;
-    gap:10px;
+    gap: 10px;
 }
 
 nav ul {
@@ -67,14 +78,14 @@ nav li:not(#selected_nav) :hover {
 }
 
 #flashy_top_area {
-    background: url("../images/background_img.jpeg") lightgray 50% / cover no-repeat;
+    background: url("../images/background_img.jpg") lightgray 50% / cover no-repeat;
+    background-position: top;
     display: flex;
     width: auto;
     height: 797px;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
     background-color: #f1f1f1;
+    padding: 32px;
 }
 
 h1 {
@@ -86,6 +97,38 @@ h1 {
     line-height: normal;
 }
 
+#flashy_top_area > p {
+    width: 448px;
+    color: #333;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#about_area {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFECFF;
+    padding: 32px;
+    gap: 24px;
+}
+
+#about_area > h2 {
+    padding-bottom: 8px;
+}
+
+#about_area > p {
+    color: #000;
+    text-align: justify;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%;
+}
+
 #store_cards {
     display: flex;
     flex-direction: row;
@@ -93,7 +136,7 @@ h1 {
     align-items: start;
     flex-wrap: wrap;
     gap: 32px;
-    margin: 32px;
+    padding: 32px;
 }
 
 #store_cards > h2 {
@@ -110,7 +153,7 @@ h1 {
     border-radius: 38px;
     background: #EFECFF;
     align-items: center;
-    justify-content: space-between;
+    padding-bottom: 27px;
 }
 
 .store_card > div:first-child {
@@ -119,8 +162,32 @@ h1 {
     width: 376px;
     height: 276px;
     flex-shrink: 0;
-    background: url("../images/Vinland_Saga.jpeg") lightgray 50% / cover no-repeat;
     border-radius: 38px;
+
+}
+
+#store_card_1 {
+    background: url("../images/Vinland_Saga.jpeg") lightgray 50% / cover no-repeat;
+}
+
+#store_card_2 {
+    background: url("../images/Yakusoku_no_Neverland.jpg") lightgray 50% / cover no-repeat;
+}
+
+#store_card_3 {
+    background: url("../images/Majo_no_Tabitabi.jpg") lightgray 50% / cover no-repeat;
+}
+
+#store_card_4 {
+    background: url("../images/Cyberpunk_Edgerunners.jpg") lightgray 50% / cover no-repeat;
+}
+
+#store_card_5 {
+    background: url("../images/Mushoku_Tensei_Isekai_Ittara_Honki_Dasu.jpg") lightgray 50% / cover no-repeat;
+}
+
+#store_card_6 {
+    background: url("../images/Dororo.jpg") lightgray 50% / cover no-repeat;
 }
 
 .heart_icon {
@@ -144,6 +211,7 @@ h1 {
 }
 
 .store_card > h3 {
+    position: relative;
     color: #000;
     text-align: justify;
     font-family: Abel;
@@ -170,6 +238,8 @@ h1 {
 
 .buy_item {
     display: flex;
+    position: relative;
+    bottom: 0;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -182,7 +252,6 @@ h1 {
     line-height: normal;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 27px;
 }
 
 .shopping_cart {
@@ -205,6 +274,8 @@ h1 {
 }
 
 footer {
+    position: sticky;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
