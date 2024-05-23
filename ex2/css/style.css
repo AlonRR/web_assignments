@@ -415,4 +415,42 @@ p.footer_item {
     border-radius: 50%;
     backdrop-filter: blur(10px);
 }
+
+#my_choice {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+}
+
+#contact_form {
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+    background-color: #EFECFF;
+    height: 503px;
+}
+
+#contact_form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+#contact_form > form > input,
+#contact_form > form > textarea{
+
+    font-size: 14px;
+    padding: 16px;
+    border: 1px solid #612999;
+    border-radius: 8px;
+
 }
