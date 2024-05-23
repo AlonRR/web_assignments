@@ -104,11 +104,11 @@ main h2 {
 
 #flashy_top_area > p {
     width: 448px;
-    color: #333;
+    color: #000;
     font-family: Nunito;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -151,13 +151,11 @@ main h2 {
 .store_card {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     width: 376px;
     height: 496px;
     flex-shrink: 0;
     border-radius: 38px;
     background: #EFECFF;
-    align-items: center;
     padding-bottom: 27px;
 }
 
@@ -168,7 +166,7 @@ main h2 {
     height: 276px;
     flex-shrink: 0;
     border-radius: 38px;
-
+    align-self: flex-start;
 }
 
 #store_card_1 {
@@ -243,8 +241,6 @@ main h2 {
 
 .buy_item {
     display: flex;
-    position: relative;
-    bottom: 0;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -446,7 +442,7 @@ p.footer_item {
 }
 
 #contact_form > form > input,
-#contact_form > form > textarea{
+#contact_form > form > textarea {
 
     font-size: 14px;
     padding: 16px;
