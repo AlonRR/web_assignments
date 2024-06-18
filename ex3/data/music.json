@@ -1,4 +1,80 @@
 {
-    
-
+    "title": "A Random Collection of Songs",
+    "songs": [
+        {
+            "id": 145,
+            "title": "Hey Jude",
+            "artist": "The Beatles"
+        },
+        {
+            "id": 78,
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen"
+        },
+        {
+            "id": 210,
+            "title": "My Generation",
+            "artist": "The Who"
+        },
+        {
+            "id": 56,
+            "title": "Like a Rolling Stone",
+            "artist": "Bob Dylan"
+        },
+        {
+            "id": 34,
+            "title": "Stairway to Heaven",
+            "artist": "Led Zeppelin"
+        },
+        {
+            "id": 232,
+            "title": "All Along the Watchtower",
+            "artist": "Jimi Hendrix"
+        },
+        {
+            "id": 254,
+            "title": "A Day in the Life",
+            "artist": "The Beatles"
+        },
+        {
+            "id": 12,
+            "title": "Imagine",
+            "artist": "John Lennon"
+        },
+        {
+            "id": 320,
+            "title": "London Calling",
+            "artist": "The Clash"
+        },
+        {
+            "id": 298,
+            "title": "Sweet Child O' Mine",
+            "artist": "Guns N' Roses"
+        },
+        {
+            "id": 276,
+            "title": "God Save the Queen",
+            "artist": "Sex Pistols"
+        },
+        {
+            "id": 91,
+            "title": "Smells Like Teen Spirit",
+            "artist": "Nirvana"
+        },
+        {
+            "id": 123,
+            "title": "Hotel California",
+            "artist": "Eagles"
+        },
+        {
+            "id": 167,
+            "title": "Good Vibrations",
+            "artist": "The Beach Boys"
+        },
+        {
+            "id": 43,
+            "title": "Wonderwall",
+            "artist": "Oasis"
+        }
+    ]
 }
